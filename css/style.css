@@ -1,0 +1,186 @@
+* {
+    /* background-image: */
+}
+
+#title h1 {
+    font-size: 75px;
+    font-family: 'Skranji', cursive;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.top_ofPage {
+    display: inline;
+}
+
+div #title {
+    text-align: center;
+}
+
+#availableCharacters {
+    margin-bottom: 2%;
+    margin-top: 1%;
+    background-color: #eee;
+    transition: all ease-in 5s;
+    cursor: pointer;
+    display: none;
+    width: 35px;
+    height: auto;
+}
+
+#textBox:hover + #availableCharacters {
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    display: block;
+    color: cyan;
+    margin-left: 50%;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-family: 'Skranji', cursive;
+    font-size: 25px;
+}
+
+
+#charList {
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    color: cyan;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-family: 'Skranji', cursive;
+    display: none;
+    float: bottom;
+    font-size: 15px;
+}
+
+#searchBar:hover + #charList {
+    transition: all ease-in 5s;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    display: block;
+    color: cyan;
+    margin-left: 50%;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-family: 'Skranji', cursive;
+    font-size: 15px;
+}
+
+div #searchBar {
+    text-align: center;
+    margin-left: 25px;
+    display: block;
+}
+
+#searchBar #textBox {
+    text-align: center;
+    width: 75%;
+    height: 20px;
+    float: bottom;
+    justify-content:inherit;
+    align-items: center;
+}
+
+#searchBar button {
+    height: 25px;
+    margin-bottom: auto;
+    justify-content:center;
+    align-items: center;
+    margin-top: auto;
+    float: bottom;
+}
+
+div #searchButton {
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+div #textBox{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.middle_ofPage {
+    width: 100%;
+    height: auto;
+}
+
+#display_imgRow {
+    display: flex;
+    width: 100%;
+    height: 375px;
+    align-items: center;
+    justify-content:space-evenly;
+    border-color: black;
+    border-style: solid;
+}
+
+.characters {
+    width: 400px;
+    height: 290px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 3%;    
+    border-width: 10px;
+   
+}
+
+.characters #img1 {
+
+}
+
+#img2 {
+  
+}
+
+#img3 {
+ 
+}
+
+#buttonRow {
+    
+}
+
+.bottom_ofPage ul {
+    width: 75%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.buttons {
+    list-style: none;
+    display: flex;
+    margin-block-start: -2.75em;
+    margin-block-end: 1em;
+    margin-inline-start: 4.5em;
+    margin-inline-end: 1em;
+    padding-inline-start: 4%;
+    padding-inline-end: 12%;
+}
+
+.buttons #row1 {
+   
+}
+
+.buttons button {
+    width: 100px;
+    height: 25px;
+}
+
+#displayMessages {
+    display: block;
+    grid-column: 1fr, auto;
+}
+
+
+
+
+
+
+
